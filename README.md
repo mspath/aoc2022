@@ -20,11 +20,12 @@ here are some links to repositories and articles covering this season of Advent 
 
 ### Kotlin
 
-tbd
+- [Advent of Code 2022 Directory](https://todd.ginsberg.com/post/advent-of-code/2022/) by Todd Ginsberg. Elegant solutions in Kotlin.
+- [advent-2022-kotlin](https://github.com/tginsberg/advent-2022-kotlin) Todd's repository
 
 ### Python
 
-tbd
+- [Jonathan Paulson Channel](https://www.youtube.com/channel/UCuWLIm0l4sDpEe28t41WITA)
 
 ### Rust
 
@@ -39,4 +40,9 @@ Environment
 
 ---
 
+```
+language: kotlin
+repo: aoc2022
+status: active
 updated: 2022-12-01
+```
