@@ -10,7 +10,11 @@ I'll attempt to solve them with Kotlin.
 
 ### Day 1 Calorie Counting
 
-find the elves carrying the most calories
+find the elves carrying the most calories.
+
+### Day 2 Rock Paper Scissors
+
+play Rock Paper Scissors based on a provided strategy.
 
 ---
 
@@ -25,7 +29,7 @@ here are some links to repositories and articles covering this season of Advent 
 
 ### Python
 
-- [Jonathan Paulson Channel](https://www.youtube.com/channel/UCuWLIm0l4sDpEe28t41WITA)
+- [Jonathan Paulson's Channel](https://www.youtube.com/channel/UCuWLIm0l4sDpEe28t41WITA)
 
 ### Rust
 
@@ -44,5 +48,5 @@ Environment
 language: kotlin
 repo: aoc2022
 status: active
-updated: 2022-12-01
+updated: 2022-12-02
 ```
