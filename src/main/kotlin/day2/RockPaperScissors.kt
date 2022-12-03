@@ -92,4 +92,10 @@ fun benchmarkRockPaperScissors() {
     println("breakfast duration: $durationBreakfast")
     val (_, durationLunch) = measureTimedValue { lunch(input) }
     println("lunch duration: $durationLunch")
+
+    // for reference:
+    val (snack, durationSnack) = measureTimedValue { snack(input) }
+    println("snack: $snack duration: $durationSnack")
+    val (dinner, durationDinner) = measureTimedValue { dinner(input) }
+    println("dinner: $dinner duration: $durationDinner")
 }
