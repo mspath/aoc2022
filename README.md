@@ -16,6 +16,10 @@ find the elves carrying the most calories.
 
 play Rock Paper Scissors based on a provided strategy.
 
+### Day 3 Rucksack Reorganization
+
+help the elves packing their rucksacks.
+
 ---
 
 ## Links
@@ -48,5 +52,5 @@ Environment
 language: kotlin
 repo: aoc2022
 status: active
-updated: 2022-12-02
+updated: 2022-12-03
 ```
