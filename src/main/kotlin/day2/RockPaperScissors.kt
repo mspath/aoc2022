@@ -1,12 +1,15 @@
 package day2
 
 import java.io.File
+import kotlin.time.ExperimentalTime
+import kotlin.time.measureTimedValue
 
 fun main() {
     val input = File("data/day2/input.txt").readLines()
     breakfast(input)
     lunch(input)
     testRockPaperScissors()
+    benchmarkRockPaperScissors()
 }
 
 enum class Symbol(val value: Int) {
@@ -80,4 +83,13 @@ fun testRockPaperScissors() {
     check(breakfast(input) == 14264) { "breakfast failed" }
     check(lunch(input) == 12382) { "lunch failed" }
     println("2 tests ok")
+}
+
+@OptIn(ExperimentalTime::class)
+fun benchmarkRockPaperScissors() {
+    val input = File("data/day2/input.txt").readLines()
+    val (_, durationBreakfast) = measureTimedValue { breakfast(input) }
+    println("breakfast duration: $durationBreakfast")
+    val (_, durationLunch) = measureTimedValue { lunch(input) }
+    println("lunch duration: $durationLunch")
 }
