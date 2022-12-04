@@ -20,6 +20,10 @@ play Rock Paper Scissors based on a provided strategy.
 
 help the elves packing their rucksacks.
 
+### Day 4 Camp Cleanup
+
+help the elves discover overlapping assignments.
+
 ---
 
 ## Links
@@ -52,5 +56,5 @@ Environment
 language: kotlin
 repo: aoc2022
 status: active
-updated: 2022-12-03
+updated: 2022-12-04
 ```
