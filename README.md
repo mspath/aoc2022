@@ -24,6 +24,10 @@ help the elves packing their rucksacks.
 
 help the elves discover overlapping assignments.
 
+### Day 5 Supply Stacks
+
+help the elves with logistics.
+
 ---
 
 ## Links
@@ -56,5 +60,5 @@ Environment
 language: kotlin
 repo: aoc2022
 status: active
-updated: 2022-12-04
+updated: 2022-12-05
 ```
