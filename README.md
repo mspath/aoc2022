@@ -28,6 +28,10 @@ help the elves discover overlapping assignments.
 
 help the elves with logistics.
 
+### Day 6 Tuning Trouble
+
+help the elves with their messages. 
+
 ---
 
 ## Links
@@ -60,5 +64,5 @@ Environment
 language: kotlin
 repo: aoc2022
 status: active
-updated: 2022-12-05
+updated: 2022-12-06
 ```
