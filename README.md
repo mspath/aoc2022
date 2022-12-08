@@ -39,6 +39,12 @@ figured out what you actually don't have to do. (i.e. a tree lends itself as a f
 but it turns out to be hard to parse, 'flattening' the process and just storing sizes to all affected
 paths is much easier)
 
+### Day 8 Treetop Tree House
+
+help the elves with finding a nice spot for their tree house. The first grid puzzle of the year, it
+was a little tricky to integrate the 'perspective' of each location. (probably it would have been
+easier to just use loops and breaks)
+
 ---
 
 ## Links
@@ -77,5 +83,5 @@ Environment
 language: kotlin
 repo: aoc2022
 status: active
-updated: 2022-12-07
+updated: 2022-12-08
 ```
