@@ -32,6 +32,13 @@ help the elves with logistics.
 
 help the elves with their messages. 
 
+### Day 7 No Space Left On The Device
+
+help the elves with s system update. This if the first puzzle which becomes much easier once you've
+figured out what you actually don't have to do. (i.e. a tree lends itself as a feasible data structure,
+but it turns out to be hard to parse, 'flattening' the process and just storing sizes to all affected
+paths is much easier)
+
 ---
 
 ## Links
@@ -41,15 +48,21 @@ here are some links to repositories and articles covering this season of Advent 
 ### Kotlin
 
 - [Advent of Code 2022 Directory](https://todd.ginsberg.com/post/advent-of-code/2022/) by Todd Ginsberg. Elegant solutions in Kotlin.
-- [advent-2022-kotlin](https://github.com/tginsberg/advent-2022-kotlin) Todd's repository
+- [advent-2022-kotlin](https://github.com/tginsberg/advent-2022-kotlin) Todd's repository.
+- [Advent of Code in Kotlin](https://www.youtube.com/playlist?list=PLlFc5cFwUnmwxQlKf8uWp-la8BVSTH47J) Jetbrains has a series of live events on Youtube.
 
 ### Python
 
 - [Jonathan Paulson's Channel](https://www.youtube.com/channel/UCuWLIm0l4sDpEe28t41WITA)
+- [hyper neutrino's Channel](https://www.youtube.com/@hyper-neutrino)
 
 ### Rust
 
 tbd
+
+### Misc
+
+- [Advent of Code Subreddit](https://www.reddit.com/r/adventofcode/)
 
 ---
 
@@ -64,5 +77,5 @@ Environment
 language: kotlin
 repo: aoc2022
 status: active
-updated: 2022-12-06
+updated: 2022-12-07
 ```
