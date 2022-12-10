@@ -54,9 +54,11 @@ fun testRucksackReorganization() {
 
 @OptIn(ExperimentalTime::class)
 fun benchmarkRucksackReorganization() {
+    println("running tests for day 3")
     val input = File("data/day3/input.txt").readLines()
     val (_, durationBreakfast) = measureTimedValue { breakfast(input) }
     println("breakfast duration: $durationBreakfast")
     val (_, durationLunch) = measureTimedValue { lunch(input) }
     println("lunch duration: $durationLunch")
+    println("---")
 }

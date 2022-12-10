@@ -45,6 +45,10 @@ help the elves with finding a nice spot for their tree house. The first grid puz
 was a little tricky to integrate the 'perspective' of each location. (probably it would have been
 easier to just use loops and breaks)
 
+### Day 9 Rope Bridge
+
+help the elves crossing a river by simulating a rope bridge.
+
 ---
 
 ## Links
@@ -83,5 +87,5 @@ Environment
 language: kotlin
 repo: aoc2022
 status: active
-updated: 2022-12-08
+updated: 2022-12-09
 ```

@@ -102,9 +102,11 @@ fun lunch(inputSetup: String, inputInstructions: List<String>) : String {
 }
 
 fun testSupplyStacks() {
+    println("running tests for day 5")
     val input = File("data/day5/input.txt").readText()
     val (inputSetup, inputInstructions) = input.split("\n\n")
     check(breakfast(inputSetup, inputInstructions.lines()) == "CFFHVVHNC") { "breakfast failed" }
     check(lunch(inputSetup, inputInstructions.lines()) == "FSZWBPTBG") { "lunch failed" }
     println("2 tests ok")
+    println("---")
 }

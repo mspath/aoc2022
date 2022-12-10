@@ -75,9 +75,10 @@ fun lunch(input: List<String>) : Int {
 }
 
 fun testNoSpaceLeftOnTheDevice() {
-    println("running tests")
+    println("running tests for day 7")
     val input = File("data/day7/input.txt").readLines()
     check(breakfast(input) == 1770595) { "breakfast failed" }
     check(lunch(input) == 2195372) { "lunch failed" }
     println("2 tests ok")
+    println("---")
 }

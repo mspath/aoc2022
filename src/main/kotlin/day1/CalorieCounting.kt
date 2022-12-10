@@ -39,9 +39,11 @@ fun testCalorieCounting() {
 
 @OptIn(ExperimentalTime::class)
 fun benchmarkCalorieCounting() {
+    println("running tests for day 1")
     val input = File("data/day1/input.txt").readText()
     val (_, durationBreakfast) = measureTimedValue { breakfast(input) }
     println("breakfast duration: $durationBreakfast")
     val (_, durationLunch) = measureTimedValue { lunch(input) }
     println("lunch duration: $durationLunch")
+    println("---")
 }

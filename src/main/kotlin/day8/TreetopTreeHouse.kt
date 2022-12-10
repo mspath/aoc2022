@@ -91,9 +91,10 @@ fun lunch(input: List<String>) : Int {
 }
 
 fun testTreetopTreeHouse() {
-    println("running tests")
+    println("running tests for day 8")
     val input = File("data/day8/input.txt").readLines()
-    check(day7.breakfast(input) == 1662) { "breakfast failed" }
-    check(day7.lunch(input) == 537600) { "lunch failed" }
+    check(breakfast(input) == 1662) { "breakfast failed" }
+    check(lunch(input) == 537600) { "lunch failed" }
     println("2 tests ok")
+    println("---")
 }

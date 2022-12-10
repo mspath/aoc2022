@@ -30,8 +30,10 @@ fun lunch(input: String): Int {
 }
 
 fun testTuningTrouble() {
+    println("running tests for day 6")
     val input = File("data/day6/input.txt").readText()
     check(breakfast(input) == 1723) { "breakfast failed" }
     check(lunch(input) == 3708) { "lunch failed" }
     println("2 tests ok")
+    println("---")
 }

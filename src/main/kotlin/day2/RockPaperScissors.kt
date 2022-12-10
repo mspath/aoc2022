@@ -87,6 +87,7 @@ fun testRockPaperScissors() {
 
 @OptIn(ExperimentalTime::class)
 fun benchmarkRockPaperScissors() {
+    println("running tests for day 2")
     val input = File("data/day2/input.txt").readLines()
     val (_, durationBreakfast) = measureTimedValue { breakfast(input) }
     println("breakfast duration: $durationBreakfast")
@@ -98,4 +99,5 @@ fun benchmarkRockPaperScissors() {
     println("snack: $snack duration: $durationSnack")
     val (dinner, durationDinner) = measureTimedValue { dinner(input) }
     println("dinner: $dinner duration: $durationDinner")
+    println("---")
 }

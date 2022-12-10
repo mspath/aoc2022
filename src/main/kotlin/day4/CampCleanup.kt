@@ -50,9 +50,11 @@ fun testCampCleanup() {
 
 @OptIn(ExperimentalTime::class)
 fun benchmarkCampCleanup() {
+    println("running tests for day 4")
     val input = File("data/day4/input.txt").readLines()
     val (breakfast, durationBreakfast) = measureTimedValue { breakfast(input) }
     println("breakfast: $breakfast | duration: $durationBreakfast")
     val (lunch, durationLunch) = measureTimedValue { lunch(input) }
     println("lunch: $lunch | duration: $durationLunch")
+    println("---")
 }
