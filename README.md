@@ -53,6 +53,11 @@ help the elves crossing a river by simulating a rope bridge.
 
 emulate a very cool CRT.
 
+### Day 11 Monkey in the Middle
+
+deal with a group of monkeys who are playing with your items. The first puzzle this year, where it's 
+essential to find out what you don't need to worry about.
+
 ---
 
 ## Links

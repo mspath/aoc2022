@@ -73,3 +73,18 @@ fun lunch(input: List<String>): String {
     }
     return result
 }
+
+fun testCathodeRayTube() {
+    println("running tests for day 10")
+    val input = File("data/day10/input.txt").readLines()
+    check(breakfast(input) == 13180) { "breakfast failed" }
+    check(lunch(input) == """####.####.####..##..#..#...##..##..###..
+#.......#.#....#..#.#..#....#.#..#.#..#.
+###....#..###..#....####....#.#..#.###..
+#.....#...#....#....#..#....#.####.#..#.
+#....#....#....#..#.#..#.#..#.#..#.#..#.
+####.####.#.....##..#..#..##..#..#.###..
+""") { "lunch failed" }
+    println("2 tests ok")
+    println("---")
+}
