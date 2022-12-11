@@ -9,7 +9,7 @@ import day8.testTreetopTreeHouse
 import day9.testRopeBridge
 
 fun main() {
-    day9.main()
+    day10.main()
 
     //runTests()
 }

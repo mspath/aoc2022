@@ -49,6 +49,10 @@ easier to just use loops and breaks)
 
 help the elves crossing a river by simulating a rope bridge.
 
+### Day 10 Cathode-Ray Tube
+
+emulate a very cool CRT.
+
 ---
 
 ## Links
@@ -87,5 +91,5 @@ Environment
 language: kotlin
 repo: aoc2022
 status: active
-updated: 2022-12-09
+updated: 2022-12-10
 ```
