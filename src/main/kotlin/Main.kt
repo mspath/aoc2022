@@ -1,6 +1,7 @@
 import day1.testCalorieCounting
 import day10.testCathodeRayTube
 import day11.testMonkeyInTheMiddle
+import day12.testHillClimbingAlgorithm
 import day2.testRockPaperScissors
 import day3.testRucksackReorganization
 import day4.testCampCleanup
@@ -11,9 +12,9 @@ import day8.testTreetopTreeHouse
 import day9.testRopeBridge
 
 fun main() {
-    day11.main()
+    day12.main()
 
-    runTests()
+    // runTests()
 }
 
 fun runTests() {
@@ -28,4 +29,5 @@ fun runTests() {
     testRopeBridge()
     testCathodeRayTube()
     testMonkeyInTheMiddle()
+    testHillClimbingAlgorithm()
 }

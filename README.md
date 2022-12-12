@@ -58,6 +58,11 @@ emulate a very cool CRT.
 deal with a group of monkeys who are playing with your items. The first puzzle this year, where it's 
 essential to find out what you don't need to worry about.
 
+### Day 12 Hill Climbing Algorithm
+
+help the elves finding the shortest path. My solution is not very idiomatic, but I like it as
+a poor man's breath first search which delegates some logic towards the data class.
+
 ---
 
 ## Links
@@ -74,6 +79,9 @@ here are some links to repositories and articles covering this season of Advent 
 
 - [Jonathan Paulson's Channel](https://www.youtube.com/channel/UCuWLIm0l4sDpEe28t41WITA)
 - [hyper neutrino's Channel](https://www.youtube.com/@hyper-neutrino)
+
+those two are not only amazingly fast in parsing the puzzle, understanding the problem, and implementing
+the solution, they also explain their reasoning and the algorithm involved.
 
 ### Rust
 
@@ -96,5 +104,5 @@ Environment
 language: kotlin
 repo: aoc2022
 status: active
-updated: 2022-12-10
+updated: 2022-12-12
 ```
