@@ -63,6 +63,34 @@ essential to find out what you don't need to worry about.
 help the elves finding the shortest path. My solution is not very idiomatic, but I like it as
 a poor man's breath first search which delegates some logic towards the data class.
 
+### Day 13 Distress Signal
+
+calibrate your device to communicate with the elves.
+
+### Day 14 Regolith Reservoir
+
+simulate a sandy cave.
+
+### Day 15 Beacon Exclusion Zone
+
+locate beacons in a large grid.
+
+### Day 16 Proboscidea Volcanium
+
+navigate a cave with valves.
+
+### Day 17 Pyroclastic Flow
+
+calculate the height of a narrow chamber with falling rocks.
+
+### Day 18 Boiling Boulders
+
+calculate the surface area of obsidian.
+
+### Day 19
+
+tk
+
 ---
 
 ## Links
@@ -104,5 +132,5 @@ Environment
 language: kotlin
 repo: aoc2022
 status: active
-updated: 2022-12-12
+updated: 2022-12-19
 ```
