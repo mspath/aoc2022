@@ -89,7 +89,31 @@ calculate the surface area of obsidian.
 
 ### Day 19
 
-tk
+simulate a series of state machines.
+
+### Day 20
+
+Find the location of the grove.
+
+### Day 21
+
+Play with the monkeys and figure out their math.
+
+### Day 22
+
+Find the password for a strange input device.
+
+### Day 23
+
+Help the elves picking star fruit.
+
+### Day 24
+
+Navigate a basin full of blizzards.
+
+### Day 25
+
+Help the elves fueling up their balloon. Obviously they use an interesting numeric system.
 
 ---
 
@@ -132,5 +156,5 @@ Environment
 language: kotlin
 repo: aoc2022
 status: active
-updated: 2022-12-19
+updated: 2023-01-01
 ```
