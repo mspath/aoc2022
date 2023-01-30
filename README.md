@@ -87,31 +87,31 @@ calculate the height of a narrow chamber with falling rocks.
 
 calculate the surface area of obsidian.
 
-### Day 19
+### Day 19 Not Enough Minerals
 
-simulate a series of state machines.
+simulate a series of state machines. 
 
-### Day 20
+### Day 20 Grove Positioning System
 
 Find the location of the grove.
 
-### Day 21
+### Day 21 Monkey Math
 
-Play with the monkeys and figure out their math.
+Play with the monkeys and figure out their math. Obviously the use an interesting system.
 
-### Day 22
+### Day 22 Monkey Map
 
 Find the password for a strange input device.
 
-### Day 23
+### Day 23 Unstable Diffusion
 
 Help the elves picking star fruit.
 
-### Day 24
+### Day 24 Blizzard Basin
 
 Navigate a basin full of blizzards.
 
-### Day 25
+### Day 25 Full of Hot Air
 
 Help the elves fueling up their balloon. Obviously they use an interesting numeric system.
 
@@ -147,7 +147,7 @@ tbd
 
 Environment
 
-- Kotlin 1.7.21
+- Kotlin 1.8.0
 - Intellij 2022.2.4
 
 ---
