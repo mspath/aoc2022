@@ -13,9 +13,9 @@ import day8.testTreetopTreeHouse
 import day9.testRopeBridge
 
 fun main() {
-    day25.main()
+    // day25.main()
 
-    // runTests()
+    runTests()
 }
 
 fun runTests() {
