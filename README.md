@@ -125,7 +125,7 @@ here are some links to repositories and articles covering this season of Advent 
 
 - [Advent of Code 2022 Directory](https://todd.ginsberg.com/post/advent-of-code/2022/) by Todd Ginsberg. Elegant solutions in Kotlin.
 - [advent-2022-kotlin](https://github.com/tginsberg/advent-2022-kotlin) Todd's repository.
-- [Advent of Code in Kotlin](https://www.youtube.com/playlist?list=PLlFc5cFwUnmwxQlKf8uWp-la8BVSTH47J) Jetbrains has a series of live events on Youtube.
+- [Advent of Code in Kotlin](https://www.youtube.com/playlist?list=PLlFc5cFwUnmwxQlKf8uWp-la8BVSTH47J) Jetbrains has a series of live events on YouTube.
 
 ### Python
 
@@ -147,8 +147,8 @@ tbd
 
 Environment
 
-- Kotlin 1.8.10
-- Intellij 2022.3.3
+- Kotlin 1.8.20
+- Intellij 2023.1
 
 ---
 
@@ -156,5 +156,5 @@ Environment
 language: kotlin
 repo: aoc2022
 status: active
-updated: 2023-03-19
+updated: 2023-05-03
 ```
