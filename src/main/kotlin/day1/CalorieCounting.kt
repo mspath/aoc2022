@@ -1,7 +1,6 @@
 package day1
 
 import java.io.File
-import kotlin.time.ExperimentalTime
 import kotlin.time.measureTimedValue
 
 fun main() {
@@ -37,7 +36,6 @@ fun testCalorieCounting() {
     println("2 tests ok")
 }
 
-@OptIn(ExperimentalTime::class)
 fun benchmarkCalorieCounting() {
     println("running tests for day 1")
     val input = File("data/day1/input.txt").readText()
